@@ -16,6 +16,25 @@
 		281B09781E5CA51B00403997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281B09761E5CA51B00403997 /* LaunchScreen.storyboard */; };
 		281B09831E5CA51B00403997 /* SarajevoSMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B09821E5CA51B00403997 /* SarajevoSMSTests.m */; };
 		281B098E1E5CA51C00403997 /* SarajevoSMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B098D1E5CA51C00403997 /* SarajevoSMSUITests.m */; };
+		281B099C1E5CB05E00403997 /* iPhone App Icon iOS 7,9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B099B1E5CB05E00403997 /* iPhone App Icon iOS 7,9@2x.png */; };
+		281B09AF1E5CB07600403997 /* iMessage (27x20pt)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B099D1E5CB07600403997 /* iMessage (27x20pt)@2x.png */; };
+		281B09B01E5CB07600403997 /* iMessage (27x20pt)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B099E1E5CB07600403997 /* iMessage (27x20pt)@3x.png */; };
+		281B09B11E5CB07600403997 /* iMessage (32x24pt)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B099F1E5CB07600403997 /* iMessage (32x24pt)@2x.png */; };
+		281B09B21E5CB07600403997 /* iMessage (32x24pt)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A01E5CB07600403997 /* iMessage (32x24pt)@3x.png */; };
+		281B09B31E5CB07600403997 /* iMessage App Store.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A11E5CB07600403997 /* iMessage App Store.png */; };
+		281B09B41E5CB07600403997 /* iMessage iPad Pro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A21E5CB07600403997 /* iMessage iPad Pro@2x.png */; };
+		281B09B51E5CB07600403997 /* iMessage iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A31E5CB07600403997 /* iMessage iPad@2x.png */; };
+		281B09B61E5CB07600403997 /* iMessage iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A41E5CB07600403997 /* iMessage iPhone@2x.png */; };
+		281B09B71E5CB07600403997 /* iMessage iPhone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A51E5CB07600403997 /* iMessage iPhone@3x.png */; };
+		281B09B81E5CB07600403997 /* iPad Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A61E5CB07600403997 /* iPad Settings.png */; };
+		281B09B91E5CB07600403997 /* iPad Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A71E5CB07600403997 /* iPad Settings@2x.png */; };
+		281B09BA1E5CB07600403997 /* iPad Spotlight iOS 5,6.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A81E5CB07600403997 /* iPad Spotlight iOS 5,6.png */; };
+		281B09BB1E5CB07600403997 /* iPad Spotlight iOS 5,6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09A91E5CB07600403997 /* iPad Spotlight iOS 5,6@2x.png */; };
+		281B09BC1E5CB07600403997 /* iPad Spotlight iOS 7,9.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09AA1E5CB07600403997 /* iPad Spotlight iOS 7,9.png */; };
+		281B09BD1E5CB07600403997 /* iPad Spotlight iOS 7,9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09AB1E5CB07600403997 /* iPad Spotlight iOS 7,9@2x.png */; };
+		281B09BE1E5CB07600403997 /* iPhone App Icon iOS 5,6.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09AC1E5CB07600403997 /* iPhone App Icon iOS 5,6.png */; };
+		281B09BF1E5CB07600403997 /* iPhone App Icon iOS 5,6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09AD1E5CB07600403997 /* iPhone App Icon iOS 5,6@2x.png */; };
+		281B09C01E5CB07600403997 /* iPhone App Icon iOS 7,9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281B09AE1E5CB07600403997 /* iPhone App Icon iOS 7,9@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +72,25 @@
 		281B09891E5CA51C00403997 /* SarajevoSMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarajevoSMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281B098D1E5CA51C00403997 /* SarajevoSMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SarajevoSMSUITests.m; sourceTree = "<group>"; };
 		281B098F1E5CA51C00403997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281B099B1E5CB05E00403997 /* iPhone App Icon iOS 7,9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone App Icon iOS 7,9@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPhone App Icon iOS 7,9@2x.png"; sourceTree = "<group>"; };
+		281B099D1E5CB07600403997 /* iMessage (27x20pt)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage (27x20pt)@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage (27x20pt)@2x.png"; sourceTree = "<group>"; };
+		281B099E1E5CB07600403997 /* iMessage (27x20pt)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage (27x20pt)@3x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage (27x20pt)@3x.png"; sourceTree = "<group>"; };
+		281B099F1E5CB07600403997 /* iMessage (32x24pt)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage (32x24pt)@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage (32x24pt)@2x.png"; sourceTree = "<group>"; };
+		281B09A01E5CB07600403997 /* iMessage (32x24pt)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage (32x24pt)@3x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage (32x24pt)@3x.png"; sourceTree = "<group>"; };
+		281B09A11E5CB07600403997 /* iMessage App Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage App Store.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage App Store.png"; sourceTree = "<group>"; };
+		281B09A21E5CB07600403997 /* iMessage iPad Pro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage iPad Pro@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage iPad Pro@2x.png"; sourceTree = "<group>"; };
+		281B09A31E5CB07600403997 /* iMessage iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage iPad@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage iPad@2x.png"; sourceTree = "<group>"; };
+		281B09A41E5CB07600403997 /* iMessage iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage iPhone@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage iPhone@2x.png"; sourceTree = "<group>"; };
+		281B09A51E5CB07600403997 /* iMessage iPhone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iMessage iPhone@3x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iMessage iPhone@3x.png"; sourceTree = "<group>"; };
+		281B09A61E5CB07600403997 /* iPad Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Settings.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Settings.png"; sourceTree = "<group>"; };
+		281B09A71E5CB07600403997 /* iPad Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Settings@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Settings@2x.png"; sourceTree = "<group>"; };
+		281B09A81E5CB07600403997 /* iPad Spotlight iOS 5,6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Spotlight iOS 5,6.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Spotlight iOS 5,6.png"; sourceTree = "<group>"; };
+		281B09A91E5CB07600403997 /* iPad Spotlight iOS 5,6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Spotlight iOS 5,6@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Spotlight iOS 5,6@2x.png"; sourceTree = "<group>"; };
+		281B09AA1E5CB07600403997 /* iPad Spotlight iOS 7,9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Spotlight iOS 7,9.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Spotlight iOS 7,9.png"; sourceTree = "<group>"; };
+		281B09AB1E5CB07600403997 /* iPad Spotlight iOS 7,9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Spotlight iOS 7,9@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPad Spotlight iOS 7,9@2x.png"; sourceTree = "<group>"; };
+		281B09AC1E5CB07600403997 /* iPhone App Icon iOS 5,6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone App Icon iOS 5,6.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPhone App Icon iOS 5,6.png"; sourceTree = "<group>"; };
+		281B09AD1E5CB07600403997 /* iPhone App Icon iOS 5,6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone App Icon iOS 5,6@2x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPhone App Icon iOS 5,6@2x.png"; sourceTree = "<group>"; };
+		281B09AE1E5CB07600403997 /* iPhone App Icon iOS 7,9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone App Icon iOS 7,9@3x.png"; path = "../../iOS icons (220px-DeadWinterDead)/iPhone App Icon iOS 7,9@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +147,25 @@
 				281B096C1E5CA51B00403997 /* ViewController.m */,
 				281B096E1E5CA51B00403997 /* Main.storyboard */,
 				281B09741E5CA51B00403997 /* Assets.xcassets */,
+				281B099D1E5CB07600403997 /* iMessage (27x20pt)@2x.png */,
+				281B099E1E5CB07600403997 /* iMessage (27x20pt)@3x.png */,
+				281B099F1E5CB07600403997 /* iMessage (32x24pt)@2x.png */,
+				281B09A01E5CB07600403997 /* iMessage (32x24pt)@3x.png */,
+				281B09A11E5CB07600403997 /* iMessage App Store.png */,
+				281B09A21E5CB07600403997 /* iMessage iPad Pro@2x.png */,
+				281B09A31E5CB07600403997 /* iMessage iPad@2x.png */,
+				281B09A41E5CB07600403997 /* iMessage iPhone@2x.png */,
+				281B09A51E5CB07600403997 /* iMessage iPhone@3x.png */,
+				281B09A61E5CB07600403997 /* iPad Settings.png */,
+				281B09A71E5CB07600403997 /* iPad Settings@2x.png */,
+				281B09A81E5CB07600403997 /* iPad Spotlight iOS 5,6.png */,
+				281B09A91E5CB07600403997 /* iPad Spotlight iOS 5,6@2x.png */,
+				281B09AA1E5CB07600403997 /* iPad Spotlight iOS 7,9.png */,
+				281B09AB1E5CB07600403997 /* iPad Spotlight iOS 7,9@2x.png */,
+				281B09AC1E5CB07600403997 /* iPhone App Icon iOS 5,6.png */,
+				281B09AD1E5CB07600403997 /* iPhone App Icon iOS 5,6@2x.png */,
+				281B09AE1E5CB07600403997 /* iPhone App Icon iOS 7,9@3x.png */,
+				281B099B1E5CB05E00403997 /* iPhone App Icon iOS 7,9@2x.png */,
 				281B09761E5CA51B00403997 /* LaunchScreen.storyboard */,
 				281B09791E5CA51B00403997 /* Info.plist */,
 				281B09711E5CA51B00403997 /* SarajevoSMS.xcdatamodeld */,
@@ -252,9 +309,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281B09BD1E5CB07600403997 /* iPad Spotlight iOS 7,9@2x.png in Resources */,
+				281B09BF1E5CB07600403997 /* iPhone App Icon iOS 5,6@2x.png in Resources */,
 				281B09781E5CA51B00403997 /* LaunchScreen.storyboard in Resources */,
+				281B09B01E5CB07600403997 /* iMessage (27x20pt)@3x.png in Resources */,
+				281B09B91E5CB07600403997 /* iPad Settings@2x.png in Resources */,
 				281B09751E5CA51B00403997 /* Assets.xcassets in Resources */,
+				281B09BC1E5CB07600403997 /* iPad Spotlight iOS 7,9.png in Resources */,
+				281B09B31E5CB07600403997 /* iMessage App Store.png in Resources */,
+				281B09B61E5CB07600403997 /* iMessage iPhone@2x.png in Resources */,
+				281B09B41E5CB07600403997 /* iMessage iPad Pro@2x.png in Resources */,
 				281B09701E5CA51B00403997 /* Main.storyboard in Resources */,
+				281B099C1E5CB05E00403997 /* iPhone App Icon iOS 7,9@2x.png in Resources */,
+				281B09B51E5CB07600403997 /* iMessage iPad@2x.png in Resources */,
+				281B09BB1E5CB07600403997 /* iPad Spotlight iOS 5,6@2x.png in Resources */,
+				281B09BE1E5CB07600403997 /* iPhone App Icon iOS 5,6.png in Resources */,
+				281B09B81E5CB07600403997 /* iPad Settings.png in Resources */,
+				281B09BA1E5CB07600403997 /* iPad Spotlight iOS 5,6.png in Resources */,
+				281B09B71E5CB07600403997 /* iMessage iPhone@3x.png in Resources */,
+				281B09C01E5CB07600403997 /* iPhone App Icon iOS 7,9@3x.png in Resources */,
+				281B09B21E5CB07600403997 /* iMessage (32x24pt)@3x.png in Resources */,
+				281B09B11E5CB07600403997 /* iMessage (32x24pt)@2x.png in Resources */,
+				281B09AF1E5CB07600403997 /* iMessage (27x20pt)@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
