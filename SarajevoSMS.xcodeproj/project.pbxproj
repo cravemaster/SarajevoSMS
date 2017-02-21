@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281B09671E5CA51B00403997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B09661E5CA51B00403997 /* main.m */; };
+		281B096A1E5CA51B00403997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B09691E5CA51B00403997 /* AppDelegate.m */; };
+		281B096D1E5CA51B00403997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B096C1E5CA51B00403997 /* ViewController.m */; };
+		281B09701E5CA51B00403997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281B096E1E5CA51B00403997 /* Main.storyboard */; };
+		281B09731E5CA51B00403997 /* SarajevoSMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 281B09711E5CA51B00403997 /* SarajevoSMS.xcdatamodeld */; };
+		281B09751E5CA51B00403997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281B09741E5CA51B00403997 /* Assets.xcassets */; };
+		281B09781E5CA51B00403997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281B09761E5CA51B00403997 /* LaunchScreen.storyboard */; };
+		281B09831E5CA51B00403997 /* SarajevoSMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B09821E5CA51B00403997 /* SarajevoSMSTests.m */; };
+		281B098E1E5CA51C00403997 /* SarajevoSMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B098D1E5CA51C00403997 /* SarajevoSMSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281B097F1E5CA51B00403997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281B095A1E5CA51B00403997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281B09611E5CA51B00403997;
+			remoteInfo = SarajevoSMS;
+		};
+		281B098A1E5CA51C00403997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281B095A1E5CA51B00403997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281B09611E5CA51B00403997;
+			remoteInfo = SarajevoSMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281B09621E5CA51B00403997 /* SarajevoSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarajevoSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B09661E5CA51B00403997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		281B09681E5CA51B00403997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		281B09691E5CA51B00403997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		281B096B1E5CA51B00403997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		281B096C1E5CA51B00403997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		281B096F1E5CA51B00403997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281B09721E5CA51B00403997 /* SarajevoSMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SarajevoSMS.xcdatamodel; sourceTree = "<group>"; };
+		281B09741E5CA51B00403997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281B09771E5CA51B00403997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281B09791E5CA51B00403997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281B097E1E5CA51B00403997 /* SarajevoSMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarajevoSMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B09821E5CA51B00403997 /* SarajevoSMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SarajevoSMSTests.m; sourceTree = "<group>"; };
+		281B09841E5CA51B00403997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281B09891E5CA51C00403997 /* SarajevoSMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarajevoSMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281B098D1E5CA51C00403997 /* SarajevoSMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SarajevoSMSUITests.m; sourceTree = "<group>"; };
+		281B098F1E5CA51C00403997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281B095F1E5CA51B00403997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B097B1E5CA51B00403997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B09861E5CA51C00403997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281B09591E5CA51B00403997 = {
+			isa = PBXGroup;
+			children = (
+				281B09641E5CA51B00403997 /* SarajevoSMS */,
+				281B09811E5CA51B00403997 /* SarajevoSMSTests */,
+				281B098C1E5CA51C00403997 /* SarajevoSMSUITests */,
+				281B09631E5CA51B00403997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281B09631E5CA51B00403997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281B09621E5CA51B00403997 /* SarajevoSMS.app */,
+				281B097E1E5CA51B00403997 /* SarajevoSMSTests.xctest */,
+				281B09891E5CA51C00403997 /* SarajevoSMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281B09641E5CA51B00403997 /* SarajevoSMS */ = {
+			isa = PBXGroup;
+			children = (
+				281B09681E5CA51B00403997 /* AppDelegate.h */,
+				281B09691E5CA51B00403997 /* AppDelegate.m */,
+				281B096B1E5CA51B00403997 /* ViewController.h */,
+				281B096C1E5CA51B00403997 /* ViewController.m */,
+				281B096E1E5CA51B00403997 /* Main.storyboard */,
+				281B09741E5CA51B00403997 /* Assets.xcassets */,
+				281B09761E5CA51B00403997 /* LaunchScreen.storyboard */,
+				281B09791E5CA51B00403997 /* Info.plist */,
+				281B09711E5CA51B00403997 /* SarajevoSMS.xcdatamodeld */,
+				281B09651E5CA51B00403997 /* Supporting Files */,
+			);
+			path = SarajevoSMS;
+			sourceTree = "<group>";
+		};
+		281B09651E5CA51B00403997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281B09661E5CA51B00403997 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		281B09811E5CA51B00403997 /* SarajevoSMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				281B09821E5CA51B00403997 /* SarajevoSMSTests.m */,
+				281B09841E5CA51B00403997 /* Info.plist */,
+			);
+			path = SarajevoSMSTests;
+			sourceTree = "<group>";
+		};
+		281B098C1E5CA51C00403997 /* SarajevoSMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281B098D1E5CA51C00403997 /* SarajevoSMSUITests.m */,
+				281B098F1E5CA51C00403997 /* Info.plist */,
+			);
+			path = SarajevoSMSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281B09611E5CA51B00403997 /* SarajevoSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B09921E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMS" */;
+			buildPhases = (
+				281B095E1E5CA51B00403997 /* Sources */,
+				281B095F1E5CA51B00403997 /* Frameworks */,
+				281B09601E5CA51B00403997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SarajevoSMS;
+			productName = SarajevoSMS;
+			productReference = 281B09621E5CA51B00403997 /* SarajevoSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281B097D1E5CA51B00403997 /* SarajevoSMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B09951E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMSTests" */;
+			buildPhases = (
+				281B097A1E5CA51B00403997 /* Sources */,
+				281B097B1E5CA51B00403997 /* Frameworks */,
+				281B097C1E5CA51B00403997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281B09801E5CA51B00403997 /* PBXTargetDependency */,
+			);
+			name = SarajevoSMSTests;
+			productName = SarajevoSMSTests;
+			productReference = 281B097E1E5CA51B00403997 /* SarajevoSMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281B09881E5CA51C00403997 /* SarajevoSMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281B09981E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMSUITests" */;
+			buildPhases = (
+				281B09851E5CA51C00403997 /* Sources */,
+				281B09861E5CA51C00403997 /* Frameworks */,
+				281B09871E5CA51C00403997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281B098B1E5CA51C00403997 /* PBXTargetDependency */,
+			);
+			name = SarajevoSMSUITests;
+			productName = SarajevoSMSUITests;
+			productReference = 281B09891E5CA51C00403997 /* SarajevoSMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281B095A1E5CA51B00403997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chase Fromm";
+				TargetAttributes = {
+					281B09611E5CA51B00403997 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2MH88S2NYW;
+						ProvisioningStyle = Automatic;
+					};
+					281B097D1E5CA51B00403997 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2MH88S2NYW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 281B09611E5CA51B00403997;
+					};
+					281B09881E5CA51C00403997 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2MH88S2NYW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 281B09611E5CA51B00403997;
+					};
+				};
+			};
+			buildConfigurationList = 281B095D1E5CA51B00403997 /* Build configuration list for PBXProject "SarajevoSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281B09591E5CA51B00403997;
+			productRefGroup = 281B09631E5CA51B00403997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281B09611E5CA51B00403997 /* SarajevoSMS */,
+				281B097D1E5CA51B00403997 /* SarajevoSMSTests */,
+				281B09881E5CA51C00403997 /* SarajevoSMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281B09601E5CA51B00403997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B09781E5CA51B00403997 /* LaunchScreen.storyboard in Resources */,
+				281B09751E5CA51B00403997 /* Assets.xcassets in Resources */,
+				281B09701E5CA51B00403997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B097C1E5CA51B00403997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B09871E5CA51C00403997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281B095E1E5CA51B00403997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B096D1E5CA51B00403997 /* ViewController.m in Sources */,
+				281B096A1E5CA51B00403997 /* AppDelegate.m in Sources */,
+				281B09731E5CA51B00403997 /* SarajevoSMS.xcdatamodeld in Sources */,
+				281B09671E5CA51B00403997 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B097A1E5CA51B00403997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B09831E5CA51B00403997 /* SarajevoSMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281B09851E5CA51C00403997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B098E1E5CA51C00403997 /* SarajevoSMSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281B09801E5CA51B00403997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281B09611E5CA51B00403997 /* SarajevoSMS */;
+			targetProxy = 281B097F1E5CA51B00403997 /* PBXContainerItemProxy */;
+		};
+		281B098B1E5CA51C00403997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281B09611E5CA51B00403997 /* SarajevoSMS */;
+			targetProxy = 281B098A1E5CA51C00403997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281B096E1E5CA51B00403997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281B096F1E5CA51B00403997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281B09761E5CA51B00403997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281B09771E5CA51B00403997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281B09901E5CA51C00403997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281B09911E5CA51C00403997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281B09931E5CA51C00403997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		281B09941E5CA51C00403997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		281B09961E5CA51C00403997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarajevoSMS.app/SarajevoSMS";
+			};
+			name = Debug;
+		};
+		281B09971E5CA51C00403997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarajevoSMS.app/SarajevoSMS";
+			};
+			name = Release;
+		};
+		281B09991E5CA51C00403997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SarajevoSMS;
+			};
+			name = Debug;
+		};
+		281B099A1E5CA51C00403997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2MH88S2NYW;
+				INFOPLIST_FILE = SarajevoSMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chasefromm.SarajevoSMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SarajevoSMS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281B095D1E5CA51B00403997 /* Build configuration list for PBXProject "SarajevoSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B09901E5CA51C00403997 /* Debug */,
+				281B09911E5CA51C00403997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281B09921E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B09931E5CA51C00403997 /* Debug */,
+				281B09941E5CA51C00403997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281B09951E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B09961E5CA51C00403997 /* Debug */,
+				281B09971E5CA51C00403997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281B09981E5CA51C00403997 /* Build configuration list for PBXNativeTarget "SarajevoSMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281B09991E5CA51C00403997 /* Debug */,
+				281B099A1E5CA51C00403997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		281B09711E5CA51B00403997 /* SarajevoSMS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				281B09721E5CA51B00403997 /* SarajevoSMS.xcdatamodel */,
+			);
+			currentVersion = 281B09721E5CA51B00403997 /* SarajevoSMS.xcdatamodel */;
+			path = SarajevoSMS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 281B095A1E5CA51B00403997 /* Project object */;
+}
